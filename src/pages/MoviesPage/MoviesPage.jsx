@@ -1,5 +1,5 @@
-import MovieList from "../../conmponents/MovieList/MovieList";
-import SearchFormMovies from "../../conmponents/SearchFormMovies/SearchFormMovies";
+import MovieList from "../../components/MovieList/MovieList";
+import SearchFormMovies from "../../components/SearchFormMovies/SearchFormMovies";
 import { fetchSearchMovie } from "../../movies-api";
 import { useState } from "react";
 import { useSearchParams } from "react-router-dom";
